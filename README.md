@@ -1,38 +1,58 @@
-# Welcome to React Router!
+# React Router Netlify Template
 
-- [React Router Docs](https://reactrouter.com/home)
+A modern, production-ready template for building full-stack React applications using React Router,
+deployed to Netlify.
 
-## Development
+## Features
 
-From your terminal:
+- 🚀 Server-side rendering
+- ⚡️ Hot Module Replacement (HMR)
+- 📦 Asset bundling and optimization
+- 🔄 Data loading and mutations
+- 🔒 TypeScript by default
+- 🎉 TailwindCSS for styling
+- 📖 [React Router docs](https://reactrouter.com/)
+- 💻 Configured for deployment to Netlify
 
-```sh
+## Getting Started
+
+### Installation
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+### Development
+
+Start the development server with HMR:
+
+```bash
 npm run dev
 ```
 
-This starts your app in development mode, rebuilding assets on file changes.
+Your application will be available at `http://localhost:5173`.
 
-## Deployment
+## Building for Production
 
-First, build your app for production:
+Create a production build:
 
-```sh
+```bash
 npm run build
 ```
 
-Then run the app in production mode:
+## Deployment
 
-```sh
-npm start
-```
+This template is configured for deployment to Netlify.
 
-Now you'll need to pick a host to deploy it to.
+See <https://docs.netlify.com/welcome/add-new-site/> to add this project as a site
+in your Netlify account.
 
-### DIY
+## Styling
 
-If you're familiar with deploying node applications, the built-in React Router app server is production-ready.
+This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
 
-Make sure to deploy the output of `react-router build`
+---
 
-- `build/server`
-- `build/client`
+Built with ❤️ using React Router.
