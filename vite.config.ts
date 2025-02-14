@@ -3,4 +3,11 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [reactRouter()],
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name].[ext]'
+      }
+    }
+  }
 });
